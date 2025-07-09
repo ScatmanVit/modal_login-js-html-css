@@ -26,7 +26,6 @@ O objetivo principal é **reforçar a lógica, organização e controle de event
 ---
 ## 📸 Demonstração
 
-![preview da tela inicial](src/assets/tela-incial.jpg)
 ![preview do modal](src/assets/modal.jpg)
 ---
 
@@ -41,3 +40,16 @@ O objetivo principal é **reforçar a lógica, organização e controle de event
 ---
 
 ## 📁 Estrutura de pastas
+```bash
+📂 seu-projeto/
+├── 📂 src/
+│   ├── 📂 assets/
+│   │   ├── modal.jpg
+│   │   └── tela-incial.jpg
+│   ├── 📂 css/
+│   │   └── styles.css
+│   └── 📂 js/
+│       └── script.js
+├── README.md
+└── index.html
+```
