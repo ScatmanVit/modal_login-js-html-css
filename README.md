@@ -26,9 +26,8 @@ O objetivo principal é **reforçar a lógica, organização e controle de event
 ---
 ## 📸 Demonstração
 
-![preview do tela incial](assets/tela-incial.jpg)
-![preview do modal](assets/modal.jpg)
-
+![preview da tela inicial](src/assets/tela-incial.jpg)
+![preview do modal](src/assets/modal.jpg)
 ---
 
 ## 🚀 Tecnologias usadas
