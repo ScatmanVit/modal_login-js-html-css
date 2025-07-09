@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="src/css/styles.css">
+   <title>Modal com HTML e JavaScript</title>
+</head>
+<body>
+
+   <button class="open-modal" data-modal="modal-login">
+      Login
+   </button>
+
+   <dialog id="modal-login">
+      <form>
+         <div class="modal-header">
+            <h1 class="modal-title">
+               Entre na plataforma
+            </h1>
+            <button 
+               class="close-modal" 
+               data-modal="modal-login" 
+               type="button"
+            >
+               <i class="fa-solid fa-xmark"></i>
+            </button>
+         </div>
+
+         <div class="modal-body">
+            <div class="input-group">
+               <label for="email">Email</label>
+               <input 
+                  type="text" 
+                  id="email" 
+                  name="email" 
+                  required
+                  placeholder="name@example.com"
+               >
+            </div>
+
+            <div class="input-group">
+               <label for="password">Password</label>
+               <input 
+                  type="password" 
+                  id="password" 
+                  name="password" 
+                  required
+                  placeholder="Your password here"
+               >
+            </div>
+
+            <div class="password-options">
+               <div class="remember-password">
+                  <input 
+                     type="checkbox" 
+                     name="remember-password" 
+                     id="remember-password"
+                  >
+                  <label for="remember-password">
+                     Lembre-se da senha
+                  </label>
+               </div>
+
+               <a href="#" class="forgot-password">
+                  Esqueceu sua senha?
+               </a>
+            </div>
+
+            <button id="login_button" type="submit">
+               Logar na sua conta
+            </button>
+
+            <div class="register">
+               <span>Não tem conta?</span>
+               <a href="#">Crie aqui</a>
+            </div>
+         </div>
+      </form>
+   </dialog>
+
+   <script src="src/js/script.js"></script>
+</body>
+</html>
